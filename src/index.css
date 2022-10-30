@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid lightcyan;
+  box-shadow: 5px;
+}
+.no{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 100px; */
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 5px;
+}
