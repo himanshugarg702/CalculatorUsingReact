@@ -43,7 +43,13 @@ return;
             }
         });
       }
-      
+      sub=()=>{
+        this.setState((prevState)=>{
+            return{
+                number:prevState.number-2
+            }
+        });
+      }
       render() {
         const { number } = this.state;
         return (
@@ -52,9 +58,9 @@ return;
             <div className='button'>
             <button type="button" onClick={this.add}>Add2</button>
             <button type="button" onClick={this.square}>square</button>
-            <button type="button">double</button>
-            <button type="button">divideby2</button>
-            <button type="button">subtract2</button>
+            <button type="button" onClick={this.double}>double</button>
+            <button type="button" onClick={this.divide}>divideby2</button>
+            <button type="button" onClick={this.sub}>subtract2</button>
           </div>
           </div>
         );
