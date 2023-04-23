@@ -1,5 +1,5 @@
 .ans{
-    height: 10vw;
+    height: 7vw;
 }
 .ans input{
     border: none;
@@ -60,7 +60,7 @@
 }
 button:hover{
     border-radius: 50%;
-    background-color: aqua;
+    background-color:brown;
     color: #fff;
 }
 button{
